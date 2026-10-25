@@ -1,4 +1,3 @@
-import React from "react";
 import { Product } from "@/types/menu";
 import ProductImage from "./ProductImage";
 import { formatPrice } from "@/lib/format";
@@ -28,7 +27,6 @@ export default function ProductCard({
           <ProductImage
             src={product.image}
             alt={product.imageAlt}
-            fill
             sizes="(max-width: 640px) 120px, 400px"
           />
         </div>

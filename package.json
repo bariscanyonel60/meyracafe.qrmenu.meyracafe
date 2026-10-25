@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "verify": "tsx scripts/verify-menu.ts",
-    "qr": "node scripts/generate-qr.js"
+    "verify": "tsx scripts/verify-menu.ts"
   },
   "dependencies": {
     "framer-motion": "^11.11.1",

@@ -18,3 +18,8 @@ pnpm-debug.log*
 tsconfig.tsbuildinfo
 .DS_Store
 Thumbs.db
+
+.claude/
+.cursor/
+.vscode/
+.kiro/

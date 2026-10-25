@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { Category } from "@/types/menu";
 import ProductImage from "./ProductImage";
@@ -81,7 +81,6 @@ export default function CategoryHome({
                   <ProductImage
                     src={category.image}
                     alt={category.imageAlt ?? category.name}
-                    fill
                     sizes="(max-width: 640px) 50vw, 300px"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-40 group-hover:opacity-20 transition-opacity" />

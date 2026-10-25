@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Product } from "@/types/menu";
 import ProductImage from "./ProductImage";
 import { formatPrice } from "@/lib/format";
@@ -16,7 +16,6 @@ export default function ProductDialog({
   isOpen,
   onClose,
 }: ProductDialogProps) {
-  const dialogRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
@@ -57,7 +56,6 @@ export default function ProductDialog({
         />
 
         <motion.div
-          ref={dialogRef}
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "100%", opacity: 0 }}
@@ -82,7 +80,6 @@ export default function ProductDialog({
             <ProductImage
               src={product.image}
               alt={product.imageAlt}
-              fill
               sizes="(max-width: 640px) 100vw, 500px"
               priority
             />

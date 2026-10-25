@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { Category } from "@/types/menu";
 import { Sparkles, LucideIcon } from "lucide-react";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { MenuData, Product } from "@/types/menu";
 import CategoryHome from "./CategoryHome";
 import CategoryNav from "./CategoryNav";
@@ -32,11 +32,7 @@ export default function MenuShell({ data }: MenuShellProps) {
 
   // Handle selecting tab from category nav
   const handleSelectTab = (tabId: string) => {
-    if (tabId === "all") {
-      setActiveCategory("all");
-    } else {
-      setActiveCategory(tabId);
-    }
+    setActiveCategory(tabId);
     setSearchQuery("");
   };
 
