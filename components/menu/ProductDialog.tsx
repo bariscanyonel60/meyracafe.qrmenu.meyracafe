@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Product } from "@/types/menu";
 import ProductImage from "./ProductImage";
 import { formatPrice } from "@/lib/format";
-import { X, Info } from "lucide-react";
+import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ProductDialogProps {
@@ -43,6 +43,7 @@ export default function ProductDialog({
   if (!isOpen || !product) return null;
 
   const price = product.variants[0]?.price || 0;
+  const showPrice = product.category !== "aperatifler";
 
   return (
     <AnimatePresence>
@@ -95,19 +96,14 @@ export default function ProductDialog({
               </h2>
             </div>
 
-            <div className="flex items-center justify-between pt-3 border-t border-[#E3D4BB]">
-              <div>
-                <span className="text-xs text-[#977958] block">Fiyat</span>
-                <span className="font-serif font-bold text-2xl text-[#193357]">
-                  {formatPrice(price)}
-                </span>
-              </div>
-            </div>
-
-            {product.imageMatch && (
-              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-[#FAF7F2] text-[#977958] text-xs border border-[#E3D4BB]/60">
-                <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>{product.imageMatch}</span>
+            {showPrice && (
+              <div className="flex items-center justify-between pt-3 border-t border-[#E3D4BB]">
+                <div>
+                  <span className="text-xs text-[#977958] block">Fiyat</span>
+                  <span className="font-serif font-bold text-2xl text-[#193357]">
+                    {formatPrice(price)}
+                  </span>
+                </div>
               </div>
             )}
           </div>

@@ -36,6 +36,12 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-white border-t border-[#E3D4BB]/60 py-6 px-4 text-center text-xs text-[#977958]">
         <p>© {new Date().getFullYear()} {data.brand}. Tüm hakları saklıdır. Görseller temsilidir.</p>
+        <a
+          href="https://bariscanyonel.com"
+          className="mt-3 inline-block font-medium tracking-wide text-[#193357] hover:text-[#BC9D77]"
+        >
+          Media : BCY DİJİTAL
+        </a>
       </footer>
     </div>
   );

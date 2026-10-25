@@ -12,7 +12,6 @@ export interface Product {
   variants: Variant[];
   image: string;
   imageAlt: string;
-  imageMatch: string;
 }
 
 export interface Category {

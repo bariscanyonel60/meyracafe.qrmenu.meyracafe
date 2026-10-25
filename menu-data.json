@@ -60,12 +60,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/dripped-eye.webp",
-      "imageAlt": "Dripped Eye",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Dripped Eye"
     },
     {
       "id": "black-eye",
@@ -76,12 +75,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/black-eye.webp",
-      "imageAlt": "Black Eye",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Black Eye"
     },
     {
       "id": "red-eye",
@@ -92,12 +90,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/red-eye.webp",
-      "imageAlt": "Red Eye",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Red Eye"
     },
     {
       "id": "long-black",
@@ -108,12 +105,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/long-black.webp",
-      "imageAlt": "Long Black",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Long Black"
     },
     {
       "id": "americano",
@@ -124,12 +120,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/americano.webp",
-      "imageAlt": "Americano",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Americano"
     },
     {
       "id": "caffe-crema",
@@ -140,12 +135,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/caffe-crema.webp",
-      "imageAlt": "Caffe Crema",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Caffe Crema"
     },
     {
       "id": "espresso-dopper",
@@ -156,12 +150,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/espresso-dopper.webp",
-      "imageAlt": "Espresso Dopper",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Espresso Dopper"
     },
     {
       "id": "espresso-lungo",
@@ -172,12 +165,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/espresso-lungo.webp",
-      "imageAlt": "Espresso Lungo",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Espresso Lungo"
     },
     {
       "id": "espresso",
@@ -188,12 +180,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 110
+          "price": 170
         }
       ],
       "image": "/images/products/espresso.webp",
-      "imageAlt": "Espresso",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Espresso"
     },
     {
       "id": "ristretto",
@@ -204,12 +195,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/ristretto.webp",
-      "imageAlt": "Ristretto",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Ristretto"
     },
     {
       "id": "magic",
@@ -220,12 +210,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/magic.webp",
-      "imageAlt": "Magic",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Magic"
     },
     {
       "id": "piccolo-latte",
@@ -236,12 +225,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/piccolo-latte.webp",
-      "imageAlt": "Piccolo Latte",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Piccolo Latte"
     },
     {
       "id": "cut",
@@ -252,12 +240,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/cut.webp",
-      "imageAlt": "Cut",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cut"
     },
     {
       "id": "italyan-cappuccino",
@@ -268,12 +255,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/italyan-cappuccino.webp",
-      "imageAlt": "İtalyan Cappuccino",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "İtalyan Cappuccino"
     },
     {
       "id": "galao",
@@ -284,12 +270,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/galao.webp",
-      "imageAlt": "Galao",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Galao"
     },
     {
       "id": "latte-macchiato",
@@ -300,12 +285,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/latte-macchiato.webp",
-      "imageAlt": "Latte Macchiato",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Latte Macchiato"
     },
     {
       "id": "cafe-au-lait",
@@ -316,12 +300,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/cafe-au-lait.webp",
-      "imageAlt": "Cafe au Lait",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cafe au Lait"
     },
     {
       "id": "caffe-latte",
@@ -332,12 +315,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/caffe-latte.webp",
-      "imageAlt": "Caffe Latte",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Caffe Latte"
     },
     {
       "id": "flat-white",
@@ -348,12 +330,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/flat-white.webp",
-      "imageAlt": "Flat White",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Flat White"
     },
     {
       "id": "melenge",
@@ -364,12 +345,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/melenge.webp",
-      "imageAlt": "Melenge",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Melenge"
     },
     {
       "id": "cortado",
@@ -380,12 +360,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/cortado.webp",
-      "imageAlt": "Cortado",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cortado"
     },
     {
       "id": "espresso-macchiato",
@@ -396,12 +375,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/espresso-macchiato.webp",
-      "imageAlt": "Espresso Macchiato",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Espresso Macchiato"
     },
     {
       "id": "cappuccino",
@@ -412,12 +390,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 170
         }
       ],
       "image": "/images/products/cappuccino.webp",
-      "imageAlt": "Cappuccino",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cappuccino"
     },
     {
       "id": "buzlu-espresso-lungo",
@@ -432,8 +409,7 @@
         }
       ],
       "image": "/images/products/buzlu-espresso-lungo.webp",
-      "imageAlt": "Buzlu Espresso Lungo",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Espresso Lungo"
     },
     {
       "id": "buzlu-espresso-doppio",
@@ -448,8 +424,7 @@
         }
       ],
       "image": "/images/products/buzlu-espresso-doppio.webp",
-      "imageAlt": "Buzlu Espresso Doppio",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Espresso Doppio"
     },
     {
       "id": "buzlu-long-black",
@@ -464,8 +439,7 @@
         }
       ],
       "image": "/images/products/buzlu-long-black.webp",
-      "imageAlt": "Buzlu Long Black",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Long Black"
     },
     {
       "id": "buzlu-caffe-crema",
@@ -480,8 +454,7 @@
         }
       ],
       "image": "/images/products/buzlu-caffe-crema.webp",
-      "imageAlt": "Buzlu Caffe Crema",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Caffe Crema"
     },
     {
       "id": "buzlu-espresso",
@@ -496,8 +469,7 @@
         }
       ],
       "image": "/images/products/buzlu-espresso.webp",
-      "imageAlt": "Buzlu Espresso",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Espresso"
     },
     {
       "id": "buzlu-americano",
@@ -512,8 +484,7 @@
         }
       ],
       "image": "/images/products/buzlu-americano.webp",
-      "imageAlt": "Buzlu Americano",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Americano"
     },
     {
       "id": "buzlu-kahve",
@@ -528,8 +499,7 @@
         }
       ],
       "image": "/images/products/buzlu-kahve.webp",
-      "imageAlt": "Buzlu Kahve",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Buzlu Kahve"
     },
     {
       "id": "cold-brew-espresso",
@@ -544,8 +514,7 @@
         }
       ],
       "image": "/images/products/cold-brew-espresso.webp",
-      "imageAlt": "Cold Brew Espresso",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cold Brew Espresso"
     },
     {
       "id": "cold-brew",
@@ -560,8 +529,7 @@
         }
       ],
       "image": "/images/products/cold-brew.webp",
-      "imageAlt": "Cold Brew",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Cold Brew"
     },
     {
       "id": "coldpresso",
@@ -576,8 +544,7 @@
         }
       ],
       "image": "/images/products/coldpresso.webp",
-      "imageAlt": "Coldpresso",
-      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir."
+      "imageAlt": "Coldpresso"
     },
     {
       "id": "sutlu-coldpresso",
@@ -588,12 +555,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/sutlu-coldpresso.webp",
-      "imageAlt": "Sütlü Coldpresso",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Sütlü Coldpresso"
     },
     {
       "id": "cold-brew-macchiato",
@@ -604,12 +570,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/cold-brew-macchiato.webp",
-      "imageAlt": "Cold Brew Macchiato",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Cold Brew Macchiato"
     },
     {
       "id": "cold-brew-latte",
@@ -620,12 +585,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/cold-brew-latte.webp",
-      "imageAlt": "Cold Brew Latte",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Cold Brew Latte"
     },
     {
       "id": "sutlu-buzlu-kahve",
@@ -636,12 +600,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/sutlu-buzlu-kahve.webp",
-      "imageAlt": "Sütlü Buzlu Kahve",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Sütlü Buzlu Kahve"
     },
     {
       "id": "buzlu-melange",
@@ -652,12 +615,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-melange.webp",
-      "imageAlt": "Buzlu Melange",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Melange"
     },
     {
       "id": "buzlu-galao",
@@ -668,12 +630,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-galao.webp",
-      "imageAlt": "Buzlu Galao",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Galao"
     },
     {
       "id": "buzlu-italyan-cappuccino",
@@ -684,12 +645,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-italyan-cappuccino.webp",
-      "imageAlt": "Buzlu İtalyan Cappuccino",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu İtalyan Cappuccino"
     },
     {
       "id": "buzlu-cortado",
@@ -700,12 +660,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-cortado.webp",
-      "imageAlt": "Buzlu Cortado",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Cortado"
     },
     {
       "id": "buzlu-flat-white",
@@ -716,12 +675,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-flat-white.webp",
-      "imageAlt": "Buzlu Flat White",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Flat White"
     },
     {
       "id": "buzlu-espresso-macchiato",
@@ -732,12 +690,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-espresso-macchiato.webp",
-      "imageAlt": "Buzlu Espresso Macchiato",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Espresso Macchiato"
     },
     {
       "id": "buzlu-cafe-au-lait",
@@ -748,12 +705,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-cafe-au-lait.webp",
-      "imageAlt": "Buzlu Cafe Au Lait",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Cafe Au Lait"
     },
     {
       "id": "buzlu-caffe-latte",
@@ -764,12 +720,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
-      "imageAlt": "Buzlu Caffe Latte",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Caffe Latte"
     },
     {
       "id": "buzlu-cappuccino",
@@ -780,12 +735,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-cappuccino.webp",
-      "imageAlt": "Buzlu Cappuccino",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Cappuccino"
     },
     {
       "id": "buzlu-latte-macchiato",
@@ -796,12 +750,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 210
+          "price": 180
         }
       ],
       "image": "/images/products/buzlu-latte-macchiato.webp",
-      "imageAlt": "Buzlu Latte Macchiato",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Buzlu Latte Macchiato"
     },
     {
       "id": "turk-cayi",
@@ -816,8 +769,7 @@
         }
       ],
       "image": "/images/products/turk-cayi.webp",
-      "imageAlt": "Türk Çayı",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Türk Çayı"
     },
     {
       "id": "adacayi",
@@ -832,8 +784,7 @@
         }
       ],
       "image": "/images/products/adacayi.webp",
-      "imageAlt": "Adaçayı",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Adaçayı"
     },
     {
       "id": "ihlamur",
@@ -848,8 +799,7 @@
         }
       ],
       "image": "/images/products/ihlamur.webp",
-      "imageAlt": "Ihlamur",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Ihlamur"
     },
     {
       "id": "papatya",
@@ -864,8 +814,7 @@
         }
       ],
       "image": "/images/products/papatya.webp",
-      "imageAlt": "Papatya",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Papatya"
     },
     {
       "id": "nane-limon",
@@ -880,8 +829,7 @@
         }
       ],
       "image": "/images/products/nane-limon.webp",
-      "imageAlt": "Nane Limon",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Nane Limon"
     },
     {
       "id": "melisa",
@@ -896,8 +844,7 @@
         }
       ],
       "image": "/images/products/melisa.webp",
-      "imageAlt": "Melisa",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Melisa"
     },
     {
       "id": "hibiskus",
@@ -912,8 +859,7 @@
         }
       ],
       "image": "/images/products/hibiskus.webp",
-      "imageAlt": "Hibiskus",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Hibiskus"
     },
     {
       "id": "kis-cayi",
@@ -928,8 +874,7 @@
         }
       ],
       "image": "/images/products/kis-cayi.webp",
-      "imageAlt": "Kış Çayı",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Kış Çayı"
     },
     {
       "id": "salep",
@@ -944,8 +889,7 @@
         }
       ],
       "image": "/images/products/salep.webp",
-      "imageAlt": "Salep",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Salep"
     },
     {
       "id": "filtre-kahve",
@@ -960,8 +904,7 @@
         }
       ],
       "image": "/images/products/filtre-kahve.webp",
-      "imageAlt": "Filtre Kahve",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Filtre Kahve"
     },
     {
       "id": "turk-kahvesi",
@@ -976,8 +919,7 @@
         }
       ],
       "image": "/images/products/turk-kahvesi.webp",
-      "imageAlt": "Türk Kahvesi",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Türk Kahvesi"
     },
     {
       "id": "sicak-cikolata",
@@ -992,8 +934,7 @@
         }
       ],
       "image": "/images/products/sicak-cikolata.webp",
-      "imageAlt": "Sıcak Çikolata",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Sıcak Çikolata"
     },
     {
       "id": "mango-esintisi",
@@ -1008,8 +949,7 @@
         }
       ],
       "image": "/images/products/mango-esintisi.webp",
-      "imageAlt": "Mango Esintisi",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Mango Esintisi"
     },
     {
       "id": "fistikli-cikolata-kubbe",
@@ -1024,8 +964,7 @@
         }
       ],
       "image": "/images/products/fistikli-cikolata-kubbe.webp",
-      "imageAlt": "Fıstıklı Çikolata Kubbe",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Fıstıklı Çikolata Kubbe"
     },
     {
       "id": "red-velvet",
@@ -1040,8 +979,7 @@
         }
       ],
       "image": "/images/products/red-velvet.webp",
-      "imageAlt": "Red Velvet",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Red Velvet"
     },
     {
       "id": "muzlu-cikolatali-pasta",
@@ -1056,8 +994,7 @@
         }
       ],
       "image": "/images/products/muzlu-cikolatali-pasta.webp",
-      "imageAlt": "Muzlu Çikolatalı Pasta",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Muzlu Çikolatalı Pasta"
     },
     {
       "id": "fistik-aski",
@@ -1072,8 +1009,7 @@
         }
       ],
       "image": "/images/products/fistik-aski.webp",
-      "imageAlt": "Fıstık Aşkı",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Fıstık Aşkı"
     },
     {
       "id": "lotus-cheesecake",
@@ -1088,8 +1024,7 @@
         }
       ],
       "image": "/images/products/lotus-cheesecake.webp",
-      "imageAlt": "Lotus Cheesecake",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Lotus Cheesecake"
     },
     {
       "id": "frambuazli-cheesecake",
@@ -1104,8 +1039,7 @@
         }
       ],
       "image": "/images/products/frambuazli-cheesecake.webp",
-      "imageAlt": "Frambuazlı Cheesecake",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Frambuazlı Cheesecake"
     },
     {
       "id": "limonlu-cheesecake",
@@ -1120,8 +1054,7 @@
         }
       ],
       "image": "/images/products/limonlu-cheesecake.webp",
-      "imageAlt": "Limonlu Cheesecake",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Limonlu Cheesecake"
     },
     {
       "id": "oreolu-cheesecake",
@@ -1136,8 +1069,7 @@
         }
       ],
       "image": "/images/products/oreolu-cheesecake.webp",
-      "imageAlt": "Oreolu Cheesecake",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Oreolu Cheesecake"
     },
     {
       "id": "san-sebastian",
@@ -1152,8 +1084,7 @@
         }
       ],
       "image": "/images/products/san-sebastian.webp",
-      "imageAlt": "San Sebastian",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "San Sebastian"
     },
     {
       "id": "kasarli-tost",
@@ -1168,8 +1099,7 @@
         }
       ],
       "image": "/images/products/kasarli-tost.webp",
-      "imageAlt": "Kaşarlı Tost",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Kaşarlı Tost"
     },
     {
       "id": "kasar-sucuklu-tost",
@@ -1184,8 +1114,7 @@
         }
       ],
       "image": "/images/products/kasar-sucuklu-tost.webp",
-      "imageAlt": "Kaşar Sucuklu Tost",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Kaşar Sucuklu Tost"
     },
     {
       "id": "patates-kizartmasi",
@@ -1200,8 +1129,7 @@
         }
       ],
       "image": "/images/products/patates-kizartmasi.webp",
-      "imageAlt": "Patates Kızartması",
-      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir."
+      "imageAlt": "Patates Kızartması"
     }
   ]
 }

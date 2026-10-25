@@ -61,7 +61,6 @@ export default function CategoryHome({
             <Coffee className="w-5 h-5 text-[#BC9D77]" />
             <span>Kategoriler</span>
           </h2>
-          <span className="text-xs text-[#977958] font-medium">{categories.length} Kategori</span>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
