@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Brand Header with Logo */}
-      <header className="bg-white border-b border-[#E3D4BB]/60 py-6 px-4 sm:px-8 text-center shadow-sm">
+      <header className="bg-white border-b border-[#E3D4BB]/60 pt-5 pb-4 px-4 sm:px-8 sm:py-6 text-center shadow-sm">
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
-          <div className="relative w-20 h-20 sm:w-24 sm:h-24 mb-3 flex items-center justify-center">
+          <div className="relative w-40 h-40 sm:w-44 sm:h-44 mb-2 flex items-center justify-center">
             <Image
               src="/images/logo/Meyra_Cafe_Orijinal_Logo.png"
               alt="Meyra Kafe Logo"
