@@ -547,6 +547,22 @@
       "imageAlt": "Coldpresso"
     },
     {
+      "id": "soguk-filtre-kahve",
+      "name": "Soğuk Filtre Kahve",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "alsoIn": ["sade-kahve"],
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 180
+        }
+      ],
+      "image": "/images/products/filtre-kahve.webp",
+      "imageAlt": "Soğuk Filtre Kahve"
+    },
+    {
       "id": "sutlu-coldpresso",
       "name": "Sütlü Coldpresso",
       "category": "soguk-sutlu-kahve",
@@ -896,11 +912,12 @@
       "name": "Filtre Kahve",
       "category": "diger-kahveler-sicak-icecekler",
       "categoryName": "Diğer Kahveler & Sıcak İçecekler",
+      "alsoIn": ["sade-kahve"],
       "kind": "drink",
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 170
         }
       ],
       "image": "/images/products/filtre-kahve.webp",

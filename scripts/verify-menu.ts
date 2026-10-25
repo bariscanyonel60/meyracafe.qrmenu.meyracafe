@@ -26,11 +26,11 @@ function verifyMenu() {
     console.log("✅ Kategori sayısı doğru.");
   }
 
-  // 2. Products check (Expected 72)
+  // 2. Products check (Expected 73)
   const products = data.products;
-  console.log(`☕ Ürün Sayısı: ${products.length} (Beklenen: 72)`);
-  if (products.length !== 72) {
-    console.error("❌ Ürün sayısı 72 değil!");
+  console.log(`☕ Ürün Sayısı: ${products.length} (Beklenen: 73)`);
+  if (products.length !== 73) {
+    console.error("❌ Ürün sayısı 73 değil!");
     hasError = true;
   } else {
     console.log("✅ Ürün sayısı doğru.");
@@ -39,19 +39,19 @@ function verifyMenu() {
   // 3. Unique IDs check
   const ids = products.map((p) => p.id);
   const uniqueIds = new Set(ids);
-  if (uniqueIds.size !== 72) {
-    console.error(`❌ Benzersiz ID sayısı 72 değil (${uniqueIds.size})!`);
+  if (uniqueIds.size !== 73) {
+    console.error(`❌ Benzersiz ID sayısı 73 değil (${uniqueIds.size})!`);
     hasError = true;
   } else {
-    console.log("✅ Tüm 72 ürün ID'si benzersiz.");
+    console.log("✅ Tüm 73 ürün ID'si benzersiz.");
   }
 
-  // 4. Drinks (expected 59) & Food (expected 13) check
+  // 4. Drinks (expected 60) & Food (expected 13) check
   const drinks = products.filter((p) => p.kind === "drink");
   const foods = products.filter((p) => p.kind === "food");
-  console.log(`🥤 İçecek Sayısı: ${drinks.length} (Beklenen: 59)`);
+  console.log(`🥤 İçecek Sayısı: ${drinks.length} (Beklenen: 60)`);
   console.log(`🍰 Yiyecek Sayısı: ${foods.length} (Beklenen: 13)`);
-  if (drinks.length !== 59 || foods.length !== 13) {
+  if (drinks.length !== 60 || foods.length !== 13) {
     console.error("❌ İçecek veya yiyecek sayıları uyuşmuyor!");
     hasError = true;
   } else {
@@ -79,14 +79,14 @@ function verifyMenu() {
       }
     });
   });
-  console.log(`💰 Toplam Fiyat Varyantı: ${totalVariants} (Beklenen: 72)`);
+  console.log(`💰 Toplam Fiyat Varyantı: ${totalVariants} (Beklenen: 73)`);
   console.log(`☕ 8 oz ürün sayısı: ${eightOzVariants} (Beklenen: 47)`);
   if (eightOzVariants !== 47) {
     console.error("❌ 8 oz ürün sayısı 47 değil!");
     hasError = true;
   }
-  if (totalVariants !== 72) {
-    console.error(`❌ Toplam fiyat varyantı 72 değil (${totalVariants})!`);
+  if (totalVariants !== 73) {
+    console.error(`❌ Toplam fiyat varyantı 73 değil (${totalVariants})!`);
     hasError = true;
   } else {
     console.log("✅ Toplam fiyat varyantı sayısı doğru ve tüm fiyatlar pozitif.");

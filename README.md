@@ -8,7 +8,7 @@ Meyra Kafe için Next.js App Router, TypeScript strict, Tailwind CSS, Motion ve 
 - **Akıllı Arama & Filtreleme:** Türkçe karakter normalizasyonu (İ/i, I/ı, ş/s, ğ/g, ç/c, ö/o, ü/u) ile hızlı arama. Yapışkan ve yatay kaydırılabilir kategori çubuğu.
 - **8 oz Menü:** 47 boy seçenekli içecekte yalnızca 8 oz fiyatı kullanılır; 12 oz seçeneği menüde yer almaz.
 - **Detay Modal / Alttan Açılır Pencere:** Mobilde alttan açılan, masaüstünde ortalanmış modal; klavye erişilebilirliği (Escape, odak kilidi) ve arka plan scroll kilidi.
-- **Doğrulanmış Veri:** 72 ürün, 8 kategori ve 72 fiyat kaydı `menu-data.json` üzerinden yönetilir. Ürün fotoğrafları WebP biçiminde yerel olarak sunulur.
+- **Doğrulanmış Veri:** 73 ürün, 8 kategori ve 73 fiyat kaydı `menu-data.json` üzerinden yönetilir. Ürün fotoğrafları WebP biçiminde yerel olarak sunulur.
 
 ---
 
@@ -44,7 +44,7 @@ Meyra Kafe için Next.js App Router, TypeScript strict, Tailwind CSS, Motion ve 
   ```bash
   npm run verify
   ```
-  *(72 ürün, 8 kategori, 59 içecek, 13 yiyecek, 47 adet 8 oz içecek fiyatı, 72 toplam fiyat kaydı ve tüm yerel görsel dosyalarının disk üzerindeki varlığını doğrular; 12 oz seçeneği olmadığını kontrol eder.)*
+  *(73 ürün, 8 kategori, 60 içecek, 13 yiyecek, 47 adet 8 oz içecek fiyatı, 73 toplam fiyat kaydı ve tüm yerel görsel dosyalarının disk üzerindeki varlığını doğrular; 12 oz seçeneği olmadığını kontrol eder.)*
 
 ---
 

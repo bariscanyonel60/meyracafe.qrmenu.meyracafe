@@ -8,6 +8,7 @@ export interface Product {
   name: string;
   category: string;
   categoryName: string;
+  alsoIn?: string[];
   kind: "drink" | "food";
   variants: Variant[];
   image: string;

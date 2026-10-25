@@ -54,7 +54,9 @@ export default function MenuShell({ data }: MenuShellProps) {
       }
 
       if (activeCategory !== "all" && currentView === "products") {
-        if (product.category !== activeCategory) return false;
+        const listedInSection =
+          product.category === activeCategory || product.alsoIn?.includes(activeCategory);
+        if (!listedInSection) return false;
       }
 
       return true;
@@ -68,6 +70,15 @@ export default function MenuShell({ data }: MenuShellProps) {
     const cat = data.categories.find((c) => c.id === activeCategory);
     return cat ? cat.name : "Menü";
   }, [activeCategory, data.categories, searchQuery]);
+
+  const productForSection = (product: Product): Product => {
+    if (searchQuery.trim() || activeCategory === "all" || product.category === activeCategory) {
+      return product;
+    }
+    const section = data.categories.find((category) => category.id === activeCategory);
+    if (!section) return product;
+    return { ...product, category: section.id, categoryName: section.name };
+  };
 
   return (
     <div className="min-h-screen bg-white pb-16 flex flex-col">
@@ -153,10 +164,11 @@ export default function MenuShell({ data }: MenuShellProps) {
                 {filteredProducts.length > 0 ? (
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
                     {filteredProducts.map((product) => {
+                      const listedProduct = productForSection(product);
                       return (
                         <ProductCard
                           key={product.id}
-                          product={product}
+                          product={listedProduct}
                           onOpenDetails={(p) => setActiveProduct(p)}
                         />
                       );
