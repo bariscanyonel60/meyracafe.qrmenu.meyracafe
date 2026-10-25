@@ -1,0 +1,1714 @@
+{
+  "brand": "Meyra Kafe",
+  "locale": "tr-TR",
+  "currency": "TRY",
+  "source": "Kullanıcının yüklediği Meyra Cafe Önerilen Satış Fiyatları(1).xlsx",
+  "categories": [
+    {
+      "id": "sade-kahve",
+      "name": "Sade Kahve",
+      "imageAlt": "Espresso",
+      "image": "/images/categories/sade-kahve.webp"
+    },
+    {
+      "id": "sicak-sutlu",
+      "name": "Sıcak Sütlü",
+      "imageAlt": "Latte art bulunan sütlü kahve",
+      "image": "/images/categories/sicak-sutlu.webp"
+    },
+    {
+      "id": "soguk-kahve",
+      "name": "Soğuk Kahve",
+      "imageAlt": "Buzlu sade kahve",
+      "image": "/images/categories/soguk-kahve.webp"
+    },
+    {
+      "id": "soguk-sutlu-kahve",
+      "name": "Soğuk Sütlü Kahve",
+      "imageAlt": "Bardakta buzlu latte",
+      "image": "/images/categories/soguk-sutlu-kahve.webp"
+    },
+    {
+      "id": "caylar",
+      "name": "Çaylar",
+      "imageAlt": "İnce belli bardakta çay",
+      "image": "/images/categories/caylar.webp"
+    },
+    {
+      "id": "diger-kahveler-sicak-icecekler",
+      "name": "Diğer Kahveler & Sıcak İçecekler",
+      "imageAlt": "Sıcak çikolata",
+      "image": "/images/categories/diger-kahveler-sicak-icecekler.webp"
+    },
+    {
+      "id": "tatlilar",
+      "name": "Tatlılar",
+      "imageAlt": "Limonlu cheesecake dilimi",
+      "image": "/images/categories/tatlilar.webp"
+    },
+    {
+      "id": "aperatifler",
+      "name": "Aperatifler",
+      "imageAlt": "Patates kızartması",
+      "image": "/images/categories/aperatifler.webp"
+    }
+  ],
+  "products": [
+    {
+      "id": "dripped-eye",
+      "name": "Dripped Eye",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 3,
+      "image": "/images/products/dripped-eye.webp",
+      "imageAlt": "Dripped Eye",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "black-eye",
+      "name": "Black Eye",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 4,
+      "image": "/images/products/black-eye.webp",
+      "imageAlt": "Black Eye",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "red-eye",
+      "name": "Red Eye",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 5,
+      "image": "/images/products/red-eye.webp",
+      "imageAlt": "Red Eye",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "long-black",
+      "name": "Long Black",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 6,
+      "image": "/images/products/long-black.webp",
+      "imageAlt": "Long Black",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 7,
+      "image": "/images/products/americano.webp",
+      "imageAlt": "Americano",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "caffe-crema",
+      "name": "Caffe Crema",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 8,
+      "image": "/images/products/caffe-crema.webp",
+      "imageAlt": "Caffe Crema",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "espresso-dopper",
+      "name": "Espresso Dopper",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 9,
+      "image": "/images/products/espresso-dopper.webp",
+      "imageAlt": "Espresso Dopper",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "espresso-lungo",
+      "name": "Espresso Lungo",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 10,
+      "image": "/images/products/espresso-lungo.webp",
+      "imageAlt": "Espresso Lungo",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 110
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 11,
+      "image": "/images/products/espresso.webp",
+      "imageAlt": "Espresso",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "ristretto",
+      "name": "Ristretto",
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 12,
+      "image": "/images/products/ristretto.webp",
+      "imageAlt": "Ristretto",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "magic",
+      "name": "Magic",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 14,
+      "image": "/images/products/magic.webp",
+      "imageAlt": "Magic",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "piccolo-latte",
+      "name": "Piccolo Latte",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 15,
+      "image": "/images/products/piccolo-latte.webp",
+      "imageAlt": "Piccolo Latte",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cut",
+      "name": "Cut",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 16,
+      "image": "/images/products/cut.webp",
+      "imageAlt": "Cut",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "italyan-cappuccino",
+      "name": "İtalyan Cappuccino",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 17,
+      "image": "/images/products/italyan-cappuccino.webp",
+      "imageAlt": "İtalyan Cappuccino",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "galao",
+      "name": "Galao",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 18,
+      "image": "/images/products/galao.webp",
+      "imageAlt": "Galao",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "latte-macchiato",
+      "name": "Latte Macchiato",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 19,
+      "image": "/images/products/latte-macchiato.webp",
+      "imageAlt": "Latte Macchiato",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cafe-au-lait",
+      "name": "Cafe au Lait",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 20,
+      "image": "/images/products/cafe-au-lait.webp",
+      "imageAlt": "Cafe au Lait",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "caffe-latte",
+      "name": "Caffe Latte",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 21,
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "Caffe Latte",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 22,
+      "image": "/images/products/flat-white.webp",
+      "imageAlt": "Flat White",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "melenge",
+      "name": "Melenge",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 23,
+      "image": "/images/products/melenge.webp",
+      "imageAlt": "Melenge",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cortado",
+      "name": "Cortado",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 24,
+      "image": "/images/products/cortado.webp",
+      "imageAlt": "Cortado",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "espresso-macchiato",
+      "name": "Espresso Macchiato",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 25,
+      "image": "/images/products/espresso-macchiato.webp",
+      "imageAlt": "Espresso Macchiato",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 26,
+      "image": "/images/products/cappuccino.webp",
+      "imageAlt": "Cappuccino",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-espresso-lungo",
+      "name": "Buzlu Espresso Lungo",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 28,
+      "image": "/images/products/buzlu-espresso-lungo.webp",
+      "imageAlt": "Buzlu Espresso Lungo",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-espresso-doppio",
+      "name": "Buzlu Espresso Doppio",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 29,
+      "image": "/images/products/buzlu-espresso-doppio.webp",
+      "imageAlt": "Buzlu Espresso Doppio",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-long-black",
+      "name": "Buzlu Long Black",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 30,
+      "image": "/images/products/buzlu-long-black.webp",
+      "imageAlt": "Buzlu Long Black",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-caffe-crema",
+      "name": "Buzlu Caffe Crema",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 31,
+      "image": "/images/products/buzlu-caffe-crema.webp",
+      "imageAlt": "Buzlu Caffe Crema",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-espresso",
+      "name": "Buzlu Espresso",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 32,
+      "image": "/images/products/buzlu-espresso.webp",
+      "imageAlt": "Buzlu Espresso",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-americano",
+      "name": "Buzlu Americano",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 33,
+      "image": "/images/products/buzlu-americano.webp",
+      "imageAlt": "Buzlu Americano",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-kahve",
+      "name": "Buzlu Kahve",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 34,
+      "image": "/images/products/buzlu-kahve.webp",
+      "imageAlt": "Buzlu Kahve",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cold-brew-espresso",
+      "name": "Cold Brew Espresso",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 35,
+      "image": "/images/products/cold-brew-espresso.webp",
+      "imageAlt": "Cold Brew Espresso",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 36,
+      "image": "/images/products/cold-brew.webp",
+      "imageAlt": "Cold Brew",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "coldpresso",
+      "name": "Coldpresso",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 180
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 37,
+      "image": "/images/products/coldpresso.webp",
+      "imageAlt": "Coldpresso",
+      "imageMatch": "Kullanıcı tarafından eklenen görsel; gerçek ürün sunumu ve kullanım hakkı teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "sutlu-coldpresso",
+      "name": "Sütlü Coldpresso",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 39,
+      "image": "/images/products/sutlu-coldpresso.webp",
+      "imageAlt": "Sütlü Coldpresso",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cold-brew-macchiato",
+      "name": "Cold Brew Macchiato",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 40,
+      "image": "/images/products/cold-brew-macchiato.webp",
+      "imageAlt": "Cold Brew Macchiato",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "cold-brew-latte",
+      "name": "Cold Brew Latte",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 41,
+      "image": "/images/products/cold-brew-latte.webp",
+      "imageAlt": "Cold Brew Latte",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "sutlu-buzlu-kahve",
+      "name": "Sütlü Buzlu Kahve",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 42,
+      "image": "/images/products/sutlu-buzlu-kahve.webp",
+      "imageAlt": "Sütlü Buzlu Kahve",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-melange",
+      "name": "Buzlu Melange",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 43,
+      "image": "/images/products/buzlu-melange.webp",
+      "imageAlt": "Buzlu Melange",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-galao",
+      "name": "Buzlu Galao",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 44,
+      "image": "/images/products/buzlu-galao.webp",
+      "imageAlt": "Buzlu Galao",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-italyan-cappuccino",
+      "name": "Buzlu İtalyan Cappuccino",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 45,
+      "image": "/images/products/buzlu-italyan-cappuccino.webp",
+      "imageAlt": "Buzlu İtalyan Cappuccino",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-cortado",
+      "name": "Buzlu Cortado",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 46,
+      "image": "/images/products/buzlu-cortado.webp",
+      "imageAlt": "Buzlu Cortado",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-flat-white",
+      "name": "Buzlu Flat White",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 47,
+      "image": "/images/products/buzlu-flat-white.webp",
+      "imageAlt": "Buzlu Flat White",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-espresso-macchiato",
+      "name": "Buzlu Espresso Macchiato",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 48,
+      "image": "/images/products/buzlu-espresso-macchiato.webp",
+      "imageAlt": "Buzlu Espresso Macchiato",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-cafe-au-lait",
+      "name": "Buzlu Cafe Au Lait",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 49,
+      "image": "/images/products/buzlu-cafe-au-lait.webp",
+      "imageAlt": "Buzlu Cafe Au Lait",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-caffe-latte",
+      "name": "Buzlu Caffe Latte",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 50,
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Buzlu Caffe Latte",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-cappuccino",
+      "name": "Buzlu Cappuccino",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 51,
+      "image": "/images/products/buzlu-cappuccino.webp",
+      "imageAlt": "Buzlu Cappuccino",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "buzlu-latte-macchiato",
+      "name": "Buzlu Latte Macchiato",
+      "category": "soguk-sutlu-kahve",
+      "categoryName": "Soğuk Sütlü Kahve",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 210
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 52,
+      "image": "/images/products/buzlu-latte-macchiato.webp",
+      "imageAlt": "Buzlu Latte Macchiato",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "turk-cayi",
+      "name": "Türk Çayı",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 50
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 54,
+      "image": "/images/products/turk-cayi.webp",
+      "imageAlt": "Türk Çayı",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "adacayi",
+      "name": "Adaçayı",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 55,
+      "image": "/images/products/adacayi.webp",
+      "imageAlt": "Adaçayı",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "ihlamur",
+      "name": "Ihlamur",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 56,
+      "image": "/images/products/ihlamur.webp",
+      "imageAlt": "Ihlamur",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "papatya",
+      "name": "Papatya",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 57,
+      "image": "/images/products/papatya.webp",
+      "imageAlt": "Papatya",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "nane-limon",
+      "name": "Nane Limon",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 58,
+      "image": "/images/products/nane-limon.webp",
+      "imageAlt": "Nane Limon",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "melisa",
+      "name": "Melisa",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 59,
+      "image": "/images/products/melisa.webp",
+      "imageAlt": "Melisa",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "hibiskus",
+      "name": "Hibiskus",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 60,
+      "image": "/images/products/hibiskus.webp",
+      "imageAlt": "Hibiskus",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "kis-cayi",
+      "name": "Kış Çayı",
+      "category": "caylar",
+      "categoryName": "Çaylar",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 61,
+      "image": "/images/products/kis-cayi.webp",
+      "imageAlt": "Kış Çayı",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "salep",
+      "name": "Salep",
+      "category": "diger-kahveler-sicak-icecekler",
+      "categoryName": "Diğer Kahveler & Sıcak İçecekler",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 120
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 63,
+      "image": "/images/products/salep.webp",
+      "imageAlt": "Salep",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "filtre-kahve",
+      "name": "Filtre Kahve",
+      "category": "diger-kahveler-sicak-icecekler",
+      "categoryName": "Diğer Kahveler & Sıcak İçecekler",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 80
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 64,
+      "image": "/images/products/filtre-kahve.webp",
+      "imageAlt": "Filtre Kahve",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "turk-kahvesi",
+      "name": "Türk Kahvesi",
+      "category": "diger-kahveler-sicak-icecekler",
+      "categoryName": "Diğer Kahveler & Sıcak İçecekler",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 110
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 65,
+      "image": "/images/products/turk-kahvesi.webp",
+      "imageAlt": "Türk Kahvesi",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "sicak-cikolata",
+      "name": "Sıcak Çikolata",
+      "category": "diger-kahveler-sicak-icecekler",
+      "categoryName": "Diğer Kahveler & Sıcak İçecekler",
+      "kind": "drink",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Tek fiyat",
+          "price": 120
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "İçecekler",
+      "sourceRow": 66,
+      "image": "/images/products/sicak-cikolata.webp",
+      "imageAlt": "Sıcak Çikolata",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "mango-esintisi",
+      "name": "Mango Esintisi",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 550
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 2,
+      "image": "/images/products/mango-esintisi.webp",
+      "imageAlt": "Mango Esintisi",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "fistikli-cikolata-kubbe",
+      "name": "Fıstıklı Çikolata Kubbe",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 490
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 3,
+      "image": "/images/products/fistikli-cikolata-kubbe.webp",
+      "imageAlt": "Fıstıklı Çikolata Kubbe",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "red-velvet",
+      "name": "Red Velvet",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 390
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 4,
+      "image": "/images/products/red-velvet.webp",
+      "imageAlt": "Red Velvet",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "muzlu-cikolatali-pasta",
+      "name": "Muzlu Çikolatalı Pasta",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 390
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 5,
+      "image": "/images/products/muzlu-cikolatali-pasta.webp",
+      "imageAlt": "Muzlu Çikolatalı Pasta",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "fistik-aski",
+      "name": "Fıstık Aşkı",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 400
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 6,
+      "image": "/images/products/fistik-aski.webp",
+      "imageAlt": "Fıstık Aşkı",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "lotus-cheesecake",
+      "name": "Lotus Cheesecake",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 420
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 7,
+      "image": "/images/products/lotus-cheesecake.webp",
+      "imageAlt": "Lotus Cheesecake",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "frambuazli-cheesecake",
+      "name": "Frambuazlı Cheesecake",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 400
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 8,
+      "image": "/images/products/frambuazli-cheesecake.webp",
+      "imageAlt": "Frambuazlı Cheesecake",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "limonlu-cheesecake",
+      "name": "Limonlu Cheesecake",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 400
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 9,
+      "image": "/images/products/limonlu-cheesecake.webp",
+      "imageAlt": "Limonlu Cheesecake",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "oreolu-cheesecake",
+      "name": "Oreolu Cheesecake",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 400
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 10,
+      "image": "/images/products/oreolu-cheesecake.webp",
+      "imageAlt": "Oreolu Cheesecake",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "san-sebastian",
+      "name": "San Sebastian",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 490
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 11,
+      "image": "/images/products/san-sebastian.webp",
+      "imageAlt": "San Sebastian",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "kasarli-tost",
+      "name": "Kaşarlı Tost",
+      "category": "aperatifler",
+      "categoryName": "Aperatifler",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 310
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 13,
+      "image": "/images/products/kasarli-tost.webp",
+      "imageAlt": "Kaşarlı Tost",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "kasar-sucuklu-tost",
+      "name": "Kaşar Sucuklu Tost",
+      "category": "aperatifler",
+      "categoryName": "Aperatifler",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 590
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 14,
+      "image": "/images/products/kasar-sucuklu-tost.webp",
+      "imageAlt": "Kaşar Sucuklu Tost",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    },
+    {
+      "id": "patates-kizartmasi",
+      "name": "Patates Kızartması",
+      "category": "aperatifler",
+      "categoryName": "Aperatifler",
+      "kind": "food",
+      "currency": "TRY",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 230
+        }
+      ],
+      "description": null,
+      "allergens": null,
+      "available": true,
+      "sourceSheet": "Yiyecekler",
+      "sourceRow": 15,
+      "image": "/images/products/patates-kizartmasi.webp",
+      "imageAlt": "Patates Kızartması",
+      "imageMatch": "Kullan?c? taraf?ndan eklenen g?rsel; ger?ek ?r?n sunumu ve kullan?m hakk? teyit edilmelidir.",
+      "imageApproved": false
+    }
+  ]
+}
