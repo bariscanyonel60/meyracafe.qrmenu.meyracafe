@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Image from "next/image";
 import { Category } from "@/types/menu";
 import ProductImage from "./ProductImage";
 import { Sparkles, ChevronRight, Coffee } from "lucide-react";
@@ -15,6 +16,8 @@ export default function CategoryHome({
   onSelectCategory,
   onViewAll,
 }: CategoryHomeProps) {
+  const [bannerImageAvailable, setBannerImageAvailable] = useState(true);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8">
       {/* Quick Action Banner */}
@@ -23,20 +26,31 @@ export default function CategoryHome({
           whileHover={{ scale: 1.01 }}
           whileTap={{ scale: 0.99 }}
           onClick={onViewAll}
-          className="w-full flex items-center justify-between p-5 rounded-2xl bg-white border border-[#E3D4BB] shadow-card hover:shadow-soft transition-all text-left group"
+          aria-label="Tüm Ürünler"
+          className="relative isolate flex aspect-[3/1] min-h-[120px] w-full items-center justify-between overflow-hidden rounded-2xl border border-[#E3D4BB] bg-[#193357] p-5 text-left shadow-card transition-all hover:shadow-soft group"
         >
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#FAF7F2] text-[#BC9D77] flex items-center justify-center">
-              <Sparkles className="w-6 h-6" />
-            </div>
-            <div>
-              <h3 className="font-serif font-bold text-lg text-[#193357] group-hover:text-[#BC9D77] transition-colors">
-                Tüm Menü
-              </h3>
-              <p className="text-xs text-[#977958]">72 lezzetli ürünün tamamını keşfedin</p>
-            </div>
-          </div>
-          <ChevronRight className="w-5 h-5 text-[#977958] group-hover:text-[#BC9D77] group-hover:translate-x-1 transition-all" />
+          {bannerImageAvailable && (
+            <Image
+              src="/images/tum-menu-banner.webp"
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 480px) 100vw, 448px"
+              className="absolute inset-0 -z-20 object-cover"
+              onError={() => setBannerImageAvailable(false)}
+            />
+          )}
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 -z-10 bg-gradient-to-r from-[#193357]/85 via-[#193357]/45 to-transparent"
+          />
+          <span className="flex items-center gap-3">
+            <Sparkles className="h-6 w-6 flex-shrink-0 text-[#E3D4BB]" />
+            <span className="font-serif text-lg font-bold text-white drop-shadow-sm transition-colors group-hover:text-[#E3D4BB] sm:text-xl">
+              Tüm Ürünler
+            </span>
+          </span>
+          <ChevronRight className="h-5 w-5 flex-shrink-0 text-white transition-all group-hover:translate-x-1 group-hover:text-[#E3D4BB]" />
         </motion.button>
       </div>
 
