@@ -10,6 +10,13 @@ const buildId = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMI
 export const metadata: Metadata = {
   title: "Meyra Kafe | QR Menü",
   description: "Kahve, tatlı ve keyifli molalar için butik kafe menüsü.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
   other: {
     "meyra-build": buildId,
   },
