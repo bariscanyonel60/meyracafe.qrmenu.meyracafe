@@ -13,7 +13,7 @@ export default function MenuError() {
 
   useEffect(() => {
     window.__meyraRecoverCache?.();
-    const timer = window.setTimeout(() => setStuck(true), 1200);
+    const timer = window.setTimeout(() => setStuck(true), 1500);
     return () => window.clearTimeout(timer);
   }, []);
 
@@ -26,16 +26,7 @@ export default function MenuError() {
           <button
             type="button"
             className="mt-5 rounded-full bg-[#193357] px-5 py-2 text-sm text-white"
-            onClick={() => {
-              try {
-                sessionStorage.removeItem("meyra-cache-reload");
-              } catch {
-                // Oturum deposu kapalıysa doğrudan yenile.
-              }
-              const url = new URL(window.location.href);
-              url.searchParams.set("nocache", String(Date.now()));
-              window.location.replace(url.toString());
-            }}
+            onClick={() => window.location.reload()}
           >
             Yeniden dene
           </button>

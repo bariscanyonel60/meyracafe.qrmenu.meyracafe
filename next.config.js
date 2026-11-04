@@ -15,14 +15,15 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // HTML only — leave hashed /_next/static assets cacheable.
         source: "/",
         headers: [
           { key: "Cache-Control", value: NO_STORE },
           { key: "CDN-Cache-Control", value: "no-store" },
           { key: "Vercel-CDN-Cache-Control", value: "no-store" },
-          // Must stay ahead of Next's infinite static stale time so the
-          // browser parses this as 0 (parseInt stops at the first value).
-          { key: "x-nextjs-stale-time", value: "0" },
+          { key: "Surrogate-Control", value: "no-store" },
+          { key: "Pragma", value: "no-cache" },
+          { key: "Expires", value: "0" },
         ],
       },
     ];

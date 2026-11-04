@@ -2,6 +2,10 @@ import { getMenuData } from "@/lib/menu";
 import MenuShell from "@/components/menu/MenuShell";
 import Image from "next/image";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
+
 export default function Home() {
   const data = getMenuData();
 

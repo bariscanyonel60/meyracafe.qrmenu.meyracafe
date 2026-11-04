@@ -2,7 +2,10 @@ import type { Metadata, Viewport } from "next";
 import { cacheGuardScript } from "@/lib/cache-guard";
 import "./globals.css";
 
-const buildId = process.env.VERCEL_DEPLOYMENT_ID || "dev";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+const buildId = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || "dev";
 
 export const metadata: Metadata = {
   title: "Meyra Kafe | QR Menü",

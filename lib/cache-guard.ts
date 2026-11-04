@@ -4,7 +4,7 @@ export const cacheGuardScript = `(function () {
   function textOf(value) {
     if (!value) return "";
     if (typeof value === "string") return value;
-    if (value.message) return String(value.message);
+    if (value && value.message) return String(value.message);
     return String(value);
   }
 
@@ -28,9 +28,7 @@ export const cacheGuardScript = `(function () {
             regs.map(function (reg) {
               return reg.unregister();
             })
-          ).then(function () {
-            return regs.length > 0;
-          });
+          );
         })
       );
     }
@@ -41,42 +39,29 @@ export const cacheGuardScript = `(function () {
             keys.map(function (key) {
               return window.caches.delete(key);
             })
-          ).then(function () {
-            return keys.length > 0;
-          });
+          );
         })
       );
     }
-    return Promise.all(tasks).then(function (flags) {
-      return flags.some(Boolean);
-    });
+    return Promise.all(tasks).catch(function () {});
   }
 
-  function stripNocache() {
-    try {
-      var current = new URL(window.location.href);
-      if (!current.searchParams.has("nocache")) return;
-      current.searchParams.delete("nocache");
-      window.history.replaceState(null, "", current.pathname + current.search + current.hash);
-    } catch (e) {}
-  }
-
-  function reloadFresh() {
+  function hardReload() {
     try {
       if (sessionStorage.getItem(RELOAD_KEY) === "1") return;
       sessionStorage.setItem(RELOAD_KEY, "1");
     } catch (e) {
       return;
     }
-    clearStores().then(go).catch(go);
-    function go() {
-      var url = new URL(window.location.href);
-      url.searchParams.set("nocache", String(Date.now()));
-      window.location.replace(url.toString());
-    }
+    clearStores().finally(function () {
+      window.location.reload();
+    });
   }
 
-  window.__meyraRecoverCache = reloadFresh;
+  window.__meyraRecoverCache = hardReload;
+
+  // Her girişte eski tarayıcı/SW önbelleğini sessizce temizle; sayfayı yenileme.
+  clearStores();
 
   window.addEventListener(
     "error",
@@ -84,39 +69,36 @@ export const cacheGuardScript = `(function () {
       var target = event.target;
       if (target && target !== window && target.tagName === "SCRIPT") {
         var src = target.src || "";
-        if (src.indexOf("/_next/") !== -1) reloadFresh();
+        if (src.indexOf("/_next/") !== -1) hardReload();
         return;
       }
-      if (isChunkFailure(event.message)) reloadFresh();
+      if (isChunkFailure(event.message)) hardReload();
     },
     true
   );
 
   window.addEventListener("unhandledrejection", function (event) {
-    if (isChunkFailure(event.reason)) reloadFresh();
+    if (isChunkFailure(event.reason)) hardReload();
   });
 
+  // bfcache'den dönünce tek sefer taze yükle
   window.addEventListener("pageshow", function (event) {
-    if (event.persisted) reloadFresh();
+    if (!event.persisted) return;
+    try {
+      if (sessionStorage.getItem(RELOAD_KEY) === "1") return;
+      sessionStorage.setItem(RELOAD_KEY, "1");
+    } catch (e) {
+      return;
+    }
+    clearStores().finally(function () {
+      window.location.reload();
+    });
   });
 
-  clearStores()
-    .then(function (hadStaleCache) {
-      var meta = document.querySelector('meta[name="meyra-build"]');
-      var buildId = meta ? meta.getAttribute("content") || "" : "";
-      var previous = "";
-      try {
-        previous = localStorage.getItem("meyra-build") || "";
-        if (buildId) localStorage.setItem("meyra-build", buildId);
-      } catch (e) {}
-      if (hadStaleCache || (previous && buildId && previous !== buildId)) {
-        reloadFresh();
-        return;
-      }
-      stripNocache();
-    })
-    .catch(function () {
-      stripNocache();
-    });
+  window.addEventListener("load", function () {
+    try {
+      sessionStorage.removeItem(RELOAD_KEY);
+    } catch (e) {}
+  });
 })();
 `;
