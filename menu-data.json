@@ -551,7 +551,9 @@
       "name": "Soğuk Filtre Kahve",
       "category": "soguk-kahve",
       "categoryName": "Soğuk Kahve",
-      "alsoIn": ["sade-kahve"],
+      "alsoIn": [
+        "sade-kahve"
+      ],
       "kind": "drink",
       "variants": [
         {
@@ -912,7 +914,9 @@
       "name": "Filtre Kahve",
       "category": "diger-kahveler-sicak-icecekler",
       "categoryName": "Diğer Kahveler & Sıcak İçecekler",
-      "alsoIn": ["sade-kahve"],
+      "alsoIn": [
+        "sade-kahve"
+      ],
       "kind": "drink",
       "variants": [
         {
@@ -962,7 +966,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 550
+          "price": 350
         }
       ],
       "image": "/images/products/mango-esintisi.webp",
@@ -977,7 +981,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 490
+          "price": 300
         }
       ],
       "image": "/images/products/fistikli-cikolata-kubbe.webp",
@@ -992,7 +996,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 390
+          "price": 230
         }
       ],
       "image": "/images/products/red-velvet.webp",
@@ -1007,7 +1011,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 390
+          "price": 230
         }
       ],
       "image": "/images/products/muzlu-cikolatali-pasta.webp",
@@ -1022,7 +1026,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 400
+          "price": 280
         }
       ],
       "image": "/images/products/fistik-aski.webp",
@@ -1037,7 +1041,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 420
+          "price": 260
         }
       ],
       "image": "/images/products/lotus-cheesecake.webp",
@@ -1052,7 +1056,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 400
+          "price": 250
         }
       ],
       "image": "/images/products/frambuazli-cheesecake.webp",
@@ -1067,7 +1071,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 400
+          "price": 250
         }
       ],
       "image": "/images/products/limonlu-cheesecake.webp",
@@ -1082,7 +1086,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 400
+          "price": 250
         }
       ],
       "image": "/images/products/oreolu-cheesecake.webp",
@@ -1097,11 +1101,41 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 490
+          "price": 280
         }
       ],
       "image": "/images/products/san-sebastian.webp",
       "imageAlt": "San Sebastian"
+    },
+    {
+      "id": "fistikli-kubbe",
+      "name": "Fıstıklı Kubbe",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 350
+        }
+      ],
+      "image": "/images/products/fistikli-cikolata-kubbe.webp",
+      "imageAlt": "Fıstıklı Kubbe"
+    },
+    {
+      "id": "cedrik",
+      "name": "Cedrik",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 350
+        }
+      ],
+      "image": "/images/categories/tatlilar.webp",
+      "imageAlt": "Cedrik"
     },
     {
       "id": "kasarli-tost",
