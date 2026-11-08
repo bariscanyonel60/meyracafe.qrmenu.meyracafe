@@ -12,8 +12,7 @@ export default function ProductCard({
   product,
   onOpenDetails,
 }: ProductCardProps) {
-  const price = product.variants[0]?.price || 0;
-  const showPrice = product.category !== "aperatifler";
+  const variants = product.variants;
 
   return (
     <motion.div
@@ -45,15 +44,25 @@ export default function ProductCard({
             </h3>
           </div>
 
-          {showPrice && (
-            <div className="mt-3 flex items-end justify-between gap-2 pt-2 border-t border-[#E3D4BB]/45">
-              <div>
-                <span className="font-serif font-bold text-base sm:text-lg text-[#193357]">
-                  {formatPrice(price)}
-                </span>
-              </div>
-            </div>
-          )}
+          <div className="mt-3 flex flex-col gap-1 pt-2 border-t border-[#E3D4BB]/45">
+            {variants.length === 1 ? (
+              <span className="font-serif font-bold text-base sm:text-lg text-[#193357]">
+                {formatPrice(variants[0].price)}
+              </span>
+            ) : (
+              variants.map((variant) => (
+                <div
+                  key={variant.label}
+                  className="flex items-center justify-between gap-2 text-sm"
+                >
+                  <span className="text-[#977958]">{variant.label}</span>
+                  <span className="font-serif font-bold text-[#193357]">
+                    {formatPrice(variant.price)}
+                  </span>
+                </div>
+              ))
+            )}
+          </div>
         </div>
       </div>
     </motion.div>
