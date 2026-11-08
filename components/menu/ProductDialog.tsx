@@ -42,8 +42,7 @@ export default function ProductDialog({
 
   if (!isOpen || !product) return null;
 
-  const price = product.variants[0]?.price || 0;
-  const showPrice = product.category !== "aperatifler";
+  const variants = product.variants;
 
   return (
     <AnimatePresence>
@@ -96,16 +95,28 @@ export default function ProductDialog({
               </h2>
             </div>
 
-            {showPrice && (
-              <div className="flex items-center justify-between pt-3 border-t border-[#E3D4BB]">
+            <div className="space-y-2 pt-3 border-t border-[#E3D4BB]">
+              {variants.length === 1 ? (
                 <div>
                   <span className="text-xs text-[#977958] block">Fiyat</span>
                   <span className="font-serif font-bold text-2xl text-[#193357]">
-                    {formatPrice(price)}
+                    {formatPrice(variants[0].price)}
                   </span>
                 </div>
-              </div>
-            )}
+              ) : (
+                variants.map((variant) => (
+                  <div
+                    key={variant.label}
+                    className="flex items-center justify-between gap-3"
+                  >
+                    <span className="text-sm text-[#977958]">{variant.label}</span>
+                    <span className="font-serif font-bold text-xl text-[#193357]">
+                      {formatPrice(variant.price)}
+                    </span>
+                  </div>
+                ))
+              )}
+            </div>
           </div>
         </motion.div>
       </div>

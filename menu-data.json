@@ -52,21 +52,6 @@
   ],
   "products": [
     {
-      "id": "dripped-eye",
-      "name": "Dripped Eye",
-      "category": "sade-kahve",
-      "categoryName": "Sade Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/dripped-eye.webp",
-      "imageAlt": "Dripped Eye"
-    },
-    {
       "id": "black-eye",
       "name": "Black Eye",
       "category": "sade-kahve",
@@ -75,7 +60,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 200
         }
       ],
       "image": "/images/products/black-eye.webp",
@@ -90,26 +75,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 175
         }
       ],
       "image": "/images/products/red-eye.webp",
       "imageAlt": "Red Eye"
-    },
-    {
-      "id": "long-black",
-      "name": "Long Black",
-      "category": "sade-kahve",
-      "categoryName": "Sade Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/long-black.webp",
-      "imageAlt": "Long Black"
     },
     {
       "id": "americano",
@@ -120,146 +90,56 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 150
         }
       ],
       "image": "/images/products/americano.webp",
       "imageAlt": "Americano"
     },
     {
-      "id": "caffe-crema",
-      "name": "Caffe Crema",
+      "id": "espresso-macchiato",
+      "name": "Espresso Macchiato",
       "category": "sade-kahve",
       "categoryName": "Sade Kahve",
       "kind": "drink",
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 140
         }
       ],
       "image": "/images/products/caffe-crema.webp",
-      "imageAlt": "Caffe Crema"
+      "imageAlt": "Espresso Macchiato"
     },
     {
-      "id": "espresso-dopper",
-      "name": "Espresso Dopper",
+      "id": "double-espresso",
+      "name": "Double Espresso",
       "category": "sade-kahve",
       "categoryName": "Sade Kahve",
       "kind": "drink",
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/espresso-dopper.webp",
-      "imageAlt": "Espresso Dopper"
-    },
-    {
-      "id": "espresso-lungo",
-      "name": "Espresso Lungo",
-      "category": "sade-kahve",
-      "categoryName": "Sade Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
+          "price": 120
         }
       ],
       "image": "/images/products/espresso-lungo.webp",
-      "imageAlt": "Espresso Lungo"
+      "imageAlt": "Double Espresso"
     },
     {
-      "id": "espresso",
-      "name": "Espresso",
+      "id": "single-espresso",
+      "name": "Single Espresso",
       "category": "sade-kahve",
       "categoryName": "Sade Kahve",
       "kind": "drink",
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 100
         }
       ],
       "image": "/images/products/espresso.webp",
-      "imageAlt": "Espresso"
-    },
-    {
-      "id": "ristretto",
-      "name": "Ristretto",
-      "category": "sade-kahve",
-      "categoryName": "Sade Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/ristretto.webp",
-      "imageAlt": "Ristretto"
-    },
-    {
-      "id": "magic",
-      "name": "Magic",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/magic.webp",
-      "imageAlt": "Magic"
-    },
-    {
-      "id": "piccolo-latte",
-      "name": "Piccolo Latte",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/piccolo-latte.webp",
-      "imageAlt": "Piccolo Latte"
-    },
-    {
-      "id": "cut",
-      "name": "Cut",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/cut.webp",
-      "imageAlt": "Cut"
-    },
-    {
-      "id": "italyan-cappuccino",
-      "name": "İtalyan Cappuccino",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/italyan-cappuccino.webp",
-      "imageAlt": "İtalyan Cappuccino"
+      "imageAlt": "Single Espresso"
     },
     {
       "id": "galao",
@@ -337,21 +217,6 @@
       "imageAlt": "Flat White"
     },
     {
-      "id": "melenge",
-      "name": "Melenge",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/melenge.webp",
-      "imageAlt": "Melenge"
-    },
-    {
       "id": "cortado",
       "name": "Cortado",
       "category": "sicak-sutlu",
@@ -360,26 +225,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 150
         }
       ],
       "image": "/images/products/cortado.webp",
       "imageAlt": "Cortado"
-    },
-    {
-      "id": "espresso-macchiato",
-      "name": "Espresso Macchiato",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/espresso-macchiato.webp",
-      "imageAlt": "Espresso Macchiato"
     },
     {
       "id": "cappuccino",
@@ -397,81 +247,6 @@
       "imageAlt": "Cappuccino"
     },
     {
-      "id": "buzlu-espresso-lungo",
-      "name": "Buzlu Espresso Lungo",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-espresso-lungo.webp",
-      "imageAlt": "Buzlu Espresso Lungo"
-    },
-    {
-      "id": "buzlu-espresso-doppio",
-      "name": "Buzlu Espresso Doppio",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-espresso-doppio.webp",
-      "imageAlt": "Buzlu Espresso Doppio"
-    },
-    {
-      "id": "buzlu-long-black",
-      "name": "Buzlu Long Black",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-long-black.webp",
-      "imageAlt": "Buzlu Long Black"
-    },
-    {
-      "id": "buzlu-caffe-crema",
-      "name": "Buzlu Caffe Crema",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-caffe-crema.webp",
-      "imageAlt": "Buzlu Caffe Crema"
-    },
-    {
-      "id": "buzlu-espresso",
-      "name": "Buzlu Espresso",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-espresso.webp",
-      "imageAlt": "Buzlu Espresso"
-    },
-    {
       "id": "buzlu-americano",
       "name": "Buzlu Americano",
       "category": "soguk-kahve",
@@ -480,41 +255,11 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/buzlu-americano.webp",
       "imageAlt": "Buzlu Americano"
-    },
-    {
-      "id": "buzlu-kahve",
-      "name": "Buzlu Kahve",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-kahve.webp",
-      "imageAlt": "Buzlu Kahve"
-    },
-    {
-      "id": "cold-brew-espresso",
-      "name": "Cold Brew Espresso",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/cold-brew-espresso.webp",
-      "imageAlt": "Cold Brew Espresso"
     },
     {
       "id": "cold-brew",
@@ -525,104 +270,26 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 200
         }
       ],
       "image": "/images/products/cold-brew.webp",
       "imageAlt": "Cold Brew"
     },
     {
-      "id": "coldpresso",
-      "name": "Coldpresso",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/coldpresso.webp",
-      "imageAlt": "Coldpresso"
-    },
-    {
       "id": "soguk-filtre-kahve",
       "name": "Soğuk Filtre Kahve",
       "category": "soguk-kahve",
       "categoryName": "Soğuk Kahve",
-      "alsoIn": [
-        "sade-kahve"
-      ],
       "kind": "drink",
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 180
+          "price": 170
         }
       ],
       "image": "/images/products/filtre-kahve.webp",
       "imageAlt": "Soğuk Filtre Kahve"
-    },
-    {
-      "id": "sutlu-coldpresso",
-      "name": "Sütlü Coldpresso",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/sutlu-coldpresso.webp",
-      "imageAlt": "Sütlü Coldpresso"
-    },
-    {
-      "id": "cold-brew-macchiato",
-      "name": "Cold Brew Macchiato",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/cold-brew-macchiato.webp",
-      "imageAlt": "Cold Brew Macchiato"
-    },
-    {
-      "id": "cold-brew-latte",
-      "name": "Cold Brew Latte",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/cold-brew-latte.webp",
-      "imageAlt": "Cold Brew Latte"
-    },
-    {
-      "id": "sutlu-buzlu-kahve",
-      "name": "Sütlü Buzlu Kahve",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/sutlu-buzlu-kahve.webp",
-      "imageAlt": "Sütlü Buzlu Kahve"
     },
     {
       "id": "buzlu-melange",
@@ -655,51 +322,6 @@
       "imageAlt": "Buzlu Galao"
     },
     {
-      "id": "buzlu-italyan-cappuccino",
-      "name": "Buzlu İtalyan Cappuccino",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-italyan-cappuccino.webp",
-      "imageAlt": "Buzlu İtalyan Cappuccino"
-    },
-    {
-      "id": "buzlu-cortado",
-      "name": "Buzlu Cortado",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-cortado.webp",
-      "imageAlt": "Buzlu Cortado"
-    },
-    {
-      "id": "buzlu-flat-white",
-      "name": "Buzlu Flat White",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-flat-white.webp",
-      "imageAlt": "Buzlu Flat White"
-    },
-    {
       "id": "buzlu-espresso-macchiato",
       "name": "Buzlu Espresso Macchiato",
       "category": "soguk-sutlu-kahve",
@@ -708,7 +330,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 150
         }
       ],
       "image": "/images/products/buzlu-espresso-macchiato.webp",
@@ -782,8 +404,16 @@
       "kind": "drink",
       "variants": [
         {
-          "label": "Tek fiyat",
-          "price": 50
+          "label": "Fincan",
+          "price": 70
+        },
+        {
+          "label": "Kupa",
+          "price": 80
+        },
+        {
+          "label": "Karton bardak",
+          "price": 60
         }
       ],
       "image": "/images/products/turk-cayi.webp",
@@ -798,7 +428,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/adacayi.webp",
@@ -813,7 +443,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/ihlamur.webp",
@@ -828,7 +458,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/papatya.webp",
@@ -843,7 +473,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/nane-limon.webp",
@@ -858,7 +488,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/melisa.webp",
@@ -873,7 +503,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/hibiskus.webp",
@@ -888,7 +518,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 80
+          "price": 100
         }
       ],
       "image": "/images/products/kis-cayi.webp",
@@ -903,7 +533,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 120
+          "price": 150
         }
       ],
       "image": "/images/products/salep.webp",
@@ -912,16 +542,13 @@
     {
       "id": "filtre-kahve",
       "name": "Filtre Kahve",
-      "category": "diger-kahveler-sicak-icecekler",
-      "categoryName": "Diğer Kahveler & Sıcak İçecekler",
-      "alsoIn": [
-        "sade-kahve"
-      ],
+      "category": "sade-kahve",
+      "categoryName": "Sade Kahve",
       "kind": "drink",
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 170
+          "price": 150
         }
       ],
       "image": "/images/products/filtre-kahve.webp",
@@ -936,7 +563,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 110
+          "price": 100
         }
       ],
       "image": "/images/products/turk-kahvesi.webp",
@@ -951,7 +578,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 120
+          "price": 150
         }
       ],
       "image": "/images/products/sicak-cikolata.webp",
@@ -966,7 +593,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 350
+          "price": 275
         }
       ],
       "image": "/images/products/mango-esintisi.webp",
@@ -981,7 +608,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 300
+          "price": 350
         }
       ],
       "image": "/images/products/fistikli-cikolata-kubbe.webp",
@@ -996,7 +623,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 230
+          "price": 275
         }
       ],
       "image": "/images/products/red-velvet.webp",
@@ -1011,7 +638,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 230
+          "price": 275
         }
       ],
       "image": "/images/products/muzlu-cikolatali-pasta.webp",
@@ -1026,7 +653,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 280
+          "price": 325
         }
       ],
       "image": "/images/products/fistik-aski.webp",
@@ -1041,7 +668,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 260
+          "price": 250
         }
       ],
       "image": "/images/products/lotus-cheesecake.webp",
@@ -1101,7 +728,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 280
+          "price": 275
         }
       ],
       "image": "/images/products/san-sebastian.webp",
@@ -1146,7 +773,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 310
+          "price": 170
         }
       ],
       "image": "/images/products/kasarli-tost.webp",
@@ -1161,7 +788,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 590
+          "price": 200
         }
       ],
       "image": "/images/products/kasar-sucuklu-tost.webp",
@@ -1176,11 +803,161 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 230
+          "price": 225
         }
       ],
       "image": "/images/products/patates-kizartmasi.webp",
       "imageAlt": "Patates Kızartması"
+    },
+    {
+      "id": "white-chocolate-mocha",
+      "name": "White Chocolate Mocha",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 200
+        }
+      ],
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "White Chocolate Mocha"
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 200
+        }
+      ],
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "Mocha"
+    },
+    {
+      "id": "vanilya-latte",
+      "name": "Vanilya Latte",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 200
+        }
+      ],
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "Vanilya Latte"
+    },
+    {
+      "id": "findikli-latte",
+      "name": "Fındıklı Latte",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 200
+        }
+      ],
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "Fındıklı Latte"
+    },
+    {
+      "id": "caramel-latte",
+      "name": "Caramel Latte",
+      "category": "sicak-sutlu",
+      "categoryName": "Sıcak Sütlü",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 200
+        }
+      ],
+      "image": "/images/products/caffe-latte.webp",
+      "imageAlt": "Caramel Latte"
+    },
+    {
+      "id": "soguk-white-chocolate-mocha",
+      "name": "Soğuk White Chocolate Mocha",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 220
+        }
+      ],
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Soğuk White Chocolate Mocha"
+    },
+    {
+      "id": "soguk-mocha",
+      "name": "Soğuk Mocha",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 220
+        }
+      ],
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Soğuk Mocha"
+    },
+    {
+      "id": "soguk-vanilya-latte",
+      "name": "Soğuk Vanilya Latte",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 220
+        }
+      ],
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Soğuk Vanilya Latte"
+    },
+    {
+      "id": "soguk-findikli-latte",
+      "name": "Soğuk Fındıklı Latte",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 220
+        }
+      ],
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Soğuk Fındıklı Latte"
+    },
+    {
+      "id": "soguk-caramel-latte",
+      "name": "Soğuk Caramel Latte",
+      "category": "soguk-kahve",
+      "categoryName": "Soğuk Kahve",
+      "kind": "drink",
+      "variants": [
+        {
+          "label": "8 oz",
+          "price": 220
+        }
+      ],
+      "image": "/images/products/buzlu-caffe-latte.webp",
+      "imageAlt": "Soğuk Caramel Latte"
     }
   ]
 }

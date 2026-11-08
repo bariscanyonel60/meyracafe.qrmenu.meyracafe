@@ -3,11 +3,11 @@ import path from "path";
 import { MenuData } from "../types/menu";
 
 function verifyMenu() {
-  console.log("🔍 Meyra Kafe Menü Doğrulama Başlatılıyor...\n");
+  console.log("Meyra Kafe Menü Doğrulama Başlatılıyor...\n");
 
   const filePath = path.join(process.cwd(), "menu-data.json");
   if (!fs.existsSync(filePath)) {
-    console.error("❌ menu-data.json bulunamadı!");
+    console.error("menu-data.json bulunamadı!");
     process.exit(1);
   }
 
@@ -16,89 +16,58 @@ function verifyMenu() {
 
   let hasError = false;
 
-  // 1. Categories check (Expected 8)
   const categories = data.categories;
-  console.log(`📁 Kategori Sayısı: ${categories.length} (Beklenen: 8)`);
+  console.log(`Kategori Sayısı: ${categories.length} (Beklenen: 8)`);
   if (categories.length !== 8) {
-    console.error("❌ Kategori sayısı 8 değil!");
+    console.error("Kategori sayısı 8 değil!");
     hasError = true;
   } else {
-    console.log("✅ Kategori sayısı doğru.");
+    console.log("Kategori sayısı doğru.");
   }
 
-  // 2. Products check (Expected 73)
   const products = data.products;
-  console.log(`☕ Ürün Sayısı: ${products.length} (Beklenen: 73)`);
-  if (products.length !== 73) {
-    console.error("❌ Ürün sayısı 73 değil!");
-    hasError = true;
-  } else {
-    console.log("✅ Ürün sayısı doğru.");
-  }
+  console.log(`Ürün Sayısı: ${products.length}`);
 
-  // 3. Unique IDs check
   const ids = products.map((p) => p.id);
   const uniqueIds = new Set(ids);
-  if (uniqueIds.size !== 73) {
-    console.error(`❌ Benzersiz ID sayısı 73 değil (${uniqueIds.size})!`);
+  if (uniqueIds.size !== products.length) {
+    console.error(`Benzersiz ID sayısı ürün sayısıyla uyuşmuyor (${uniqueIds.size}/${products.length})!`);
     hasError = true;
   } else {
-    console.log("✅ Tüm 73 ürün ID'si benzersiz.");
+    console.log("Tüm ürün ID'leri benzersiz.");
   }
 
-  // 4. Drinks (expected 60) & Food (expected 13) check
   const drinks = products.filter((p) => p.kind === "drink");
   const foods = products.filter((p) => p.kind === "food");
-  console.log(`🥤 İçecek Sayısı: ${drinks.length} (Beklenen: 60)`);
-  console.log(`🍰 Yiyecek Sayısı: ${foods.length} (Beklenen: 13)`);
-  if (drinks.length !== 60 || foods.length !== 13) {
-    console.error("❌ İçecek veya yiyecek sayıları uyuşmuyor!");
-    hasError = true;
-  } else {
-    console.log("✅ İçecek ve yiyecek sayıları doğru.");
-  }
+  console.log(`İçecek: ${drinks.length}`);
+  console.log(`Yiyecek: ${foods.length}`);
 
-  // 5. Price variants check (47 drinks use 8 oz; all other products are single-price)
   let totalVariants = 0;
-  let eightOzVariants = 0;
   products.forEach((p) => {
-    totalVariants += p.variants.length;
-    if (p.variants.length !== 1) {
-      console.error(`❌ Ürün ${p.name} varyant sayısı 1 değil (${p.variants.length})!`);
+    if (!p.variants.length) {
+      console.error(`Ürün ${p.name} varyantsız!`);
       hasError = true;
     }
+    totalVariants += p.variants.length;
     p.variants.forEach((v) => {
-      if (v.label === "8 oz") eightOzVariants++;
       if (v.label === "12 oz" || v.label === "Büyük Boy") {
-        console.error(`❌ 12 oz boy menüde kullanılmamalı: ${p.name}`);
+        console.error(`12 oz boy menüde kullanılmamalı: ${p.name}`);
         hasError = true;
       }
       if (typeof v.price !== "number" || v.price <= 0) {
-        console.error(`❌ Geçersiz fiyat: ${p.name} -> ${v.label}: ${v.price}`);
+        console.error(`Geçersiz fiyat: ${p.name} -> ${v.label}: ${v.price}`);
         hasError = true;
       }
     });
   });
-  console.log(`💰 Toplam Fiyat Varyantı: ${totalVariants} (Beklenen: 73)`);
-  console.log(`☕ 8 oz ürün sayısı: ${eightOzVariants} (Beklenen: 47)`);
-  if (eightOzVariants !== 47) {
-    console.error("❌ 8 oz ürün sayısı 47 değil!");
-    hasError = true;
-  }
-  if (totalVariants !== 73) {
-    console.error(`❌ Toplam fiyat varyantı 73 değil (${totalVariants})!`);
-    hasError = true;
-  } else {
-    console.log("✅ Toplam fiyat varyantı sayısı doğru ve tüm fiyatlar pozitif.");
-  }
+  console.log(`Toplam fiyat varyantı: ${totalVariants}`);
 
-  // 6. Image file existence check
   let missingImages = 0;
   products.forEach((p) => {
     if (p.image) {
       const localPath = path.join(process.cwd(), "public", p.image.replace(/^\//, ""));
       if (!fs.existsSync(localPath)) {
-        console.error(`❌ Eksik görsel dosyası: ${p.image} (Ürün: ${p.name})`);
+        console.error(`Eksik görsel: ${p.image} (${p.name})`);
         missingImages++;
         hasError = true;
       }
@@ -109,7 +78,7 @@ function verifyMenu() {
     if (c.image) {
       const localPath = path.join(process.cwd(), "public", c.image.replace(/^\//, ""));
       if (!fs.existsSync(localPath)) {
-        console.error(`❌ Eksik kategori görsel dosyası: ${c.image} (Kategori: ${c.name})`);
+        console.error(`Eksik kategori görseli: ${c.image} (${c.name})`);
         missingImages++;
         hasError = true;
       }
@@ -117,15 +86,15 @@ function verifyMenu() {
   });
 
   if (missingImages === 0) {
-    console.log("✅ Bütün yerel görseller disk üzerinde mevcut.");
+    console.log("Bütün yerel görseller mevcut.");
   }
 
   console.log("\n-------------------------------------------");
   if (hasError) {
-    console.error("❌ Doğrulama BAŞARISIZ! Lütfen hataları giderin.");
+    console.error("Doğrulama BAŞARISIZ!");
     process.exit(1);
   } else {
-    console.log("🎉 Doğrulama BAŞARILI! Tüm kontroller başarıyla tamamlandı.");
+    console.log("Doğrulama BAŞARILI!");
     process.exit(0);
   }
 }
