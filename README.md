@@ -36,6 +36,11 @@ Meyra Kafe için Next.js App Router, TypeScript strict, Tailwind CSS, Motion ve 
    npm start
    ```
 
+## Canlı adres
+
+- QR menü: [https://www.meyracafe.com](https://www.meyracafe.com)
+- `https://meyracafe.com` adresi `www` alan adına yönlendirilir.
+
 ---
 
 ## Doğrulama ve Test Komutları
