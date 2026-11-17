@@ -142,21 +142,6 @@
       "imageAlt": "Single Espresso"
     },
     {
-      "id": "galao",
-      "name": "Galao",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/galao.webp",
-      "imageAlt": "Galao"
-    },
-    {
       "id": "latte-macchiato",
       "name": "Latte Macchiato",
       "category": "sicak-sutlu",
@@ -170,21 +155,6 @@
       ],
       "image": "/images/products/latte-macchiato.webp",
       "imageAlt": "Latte Macchiato"
-    },
-    {
-      "id": "cafe-au-lait",
-      "name": "Cafe au Lait",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 170
-        }
-      ],
-      "image": "/images/products/cafe-au-lait.webp",
-      "imageAlt": "Cafe au Lait"
     },
     {
       "id": "caffe-latte",
@@ -217,21 +187,6 @@
       "imageAlt": "Flat White"
     },
     {
-      "id": "cortado",
-      "name": "Cortado",
-      "category": "sicak-sutlu",
-      "categoryName": "Sıcak Sütlü",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 150
-        }
-      ],
-      "image": "/images/products/cortado.webp",
-      "imageAlt": "Cortado"
-    },
-    {
       "id": "cappuccino",
       "name": "Cappuccino",
       "category": "sicak-sutlu",
@@ -262,21 +217,6 @@
       "imageAlt": "Buzlu Americano"
     },
     {
-      "id": "cold-brew",
-      "name": "Cold Brew",
-      "category": "soguk-kahve",
-      "categoryName": "Soğuk Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 200
-        }
-      ],
-      "image": "/images/products/cold-brew.webp",
-      "imageAlt": "Cold Brew"
-    },
-    {
       "id": "soguk-filtre-kahve",
       "name": "Soğuk Filtre Kahve",
       "category": "soguk-kahve",
@@ -292,36 +232,6 @@
       "imageAlt": "Soğuk Filtre Kahve"
     },
     {
-      "id": "buzlu-melange",
-      "name": "Buzlu Melange",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-melange.webp",
-      "imageAlt": "Buzlu Melange"
-    },
-    {
-      "id": "buzlu-galao",
-      "name": "Buzlu Galao",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-galao.webp",
-      "imageAlt": "Buzlu Galao"
-    },
-    {
       "id": "buzlu-espresso-macchiato",
       "name": "Buzlu Espresso Macchiato",
       "category": "soguk-sutlu-kahve",
@@ -335,21 +245,6 @@
       ],
       "image": "/images/products/buzlu-espresso-macchiato.webp",
       "imageAlt": "Buzlu Espresso Macchiato"
-    },
-    {
-      "id": "buzlu-cafe-au-lait",
-      "name": "Buzlu Cafe Au Lait",
-      "category": "soguk-sutlu-kahve",
-      "categoryName": "Soğuk Sütlü Kahve",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "8 oz",
-          "price": 180
-        }
-      ],
-      "image": "/images/products/buzlu-cafe-au-lait.webp",
-      "imageAlt": "Buzlu Cafe Au Lait"
     },
     {
       "id": "buzlu-caffe-latte",
@@ -404,6 +299,10 @@
       "kind": "drink",
       "variants": [
         {
+          "label": "Çay bardağı",
+          "price": 50
+        },
+        {
           "label": "Fincan",
           "price": 70
         },
@@ -418,21 +317,6 @@
       ],
       "image": "/images/products/turk-cayi.webp",
       "imageAlt": "Türk Çayı"
-    },
-    {
-      "id": "adacayi",
-      "name": "Adaçayı",
-      "category": "caylar",
-      "categoryName": "Çaylar",
-      "kind": "drink",
-      "variants": [
-        {
-          "label": "Tek fiyat",
-          "price": 100
-        }
-      ],
-      "image": "/images/products/adacayi.webp",
-      "imageAlt": "Adaçayı"
     },
     {
       "id": "ihlamur",
@@ -593,7 +477,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 275
+          "price": 350
         }
       ],
       "image": "/images/products/mango-esintisi.webp",
@@ -623,7 +507,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 275
+          "price": 280
         }
       ],
       "image": "/images/products/red-velvet.webp",
@@ -638,7 +522,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 275
+          "price": 280
         }
       ],
       "image": "/images/products/muzlu-cikolatali-pasta.webp",
@@ -653,7 +537,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 325
+          "price": 280
         }
       ],
       "image": "/images/products/fistik-aski.webp",
@@ -668,7 +552,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 250
+          "price": 260
         }
       ],
       "image": "/images/products/lotus-cheesecake.webp",
@@ -713,7 +597,7 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 250
+          "price": 260
         }
       ],
       "image": "/images/products/oreolu-cheesecake.webp",
@@ -728,26 +612,11 @@
       "variants": [
         {
           "label": "Porsiyon",
-          "price": 275
+          "price": 280
         }
       ],
       "image": "/images/products/san-sebastian.webp",
       "imageAlt": "San Sebastian"
-    },
-    {
-      "id": "fistikli-kubbe",
-      "name": "Fıstıklı Kubbe",
-      "category": "tatlilar",
-      "categoryName": "Tatlılar",
-      "kind": "food",
-      "variants": [
-        {
-          "label": "Porsiyon",
-          "price": 350
-        }
-      ],
-      "image": "/images/products/fistikli-cikolata-kubbe.webp",
-      "imageAlt": "Fıstıklı Kubbe"
     },
     {
       "id": "cedrik",
@@ -761,7 +630,7 @@
           "price": 350
         }
       ],
-      "image": "/images/categories/tatlilar.webp",
+      "image": "/images/products/cedrik.webp",
       "imageAlt": "Cedrik"
     },
     {
@@ -958,6 +827,36 @@
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
       "imageAlt": "Soğuk Caramel Latte"
+    },
+    {
+      "id": "fransiz-kurvasan",
+      "name": "Fransız Kurvasan",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 300
+        }
+      ],
+      "image": "/images/categories/tatlilar.webp",
+      "imageAlt": "Fransız Kurvasan"
+    },
+    {
+      "id": "visneli-pasta",
+      "name": "Vişneli Pasta",
+      "category": "tatlilar",
+      "categoryName": "Tatlılar",
+      "kind": "food",
+      "variants": [
+        {
+          "label": "Porsiyon",
+          "price": 300
+        }
+      ],
+      "image": "/images/categories/tatlilar.webp",
+      "imageAlt": "Vişneli Pasta"
     }
   ]
 }
