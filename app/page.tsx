@@ -21,7 +21,7 @@ export default function Home() {
             <div className="relative w-40 h-40 sm:w-44 sm:h-44 mb-2 flex items-center justify-center">
               <Image
                 src="/images/logo/Meyra_Cafe_Orijinal_Logo.png"
-                alt="Meyra Kafe Logo"
+                alt="Meyra Cafe Logo"
                 fill
                 className="object-contain"
                 priority

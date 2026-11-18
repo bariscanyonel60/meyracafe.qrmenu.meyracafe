@@ -1,5 +1,5 @@
 {
-  "brand": "Meyra Kafe",
+  "brand": "Meyra Cafe",
   "categories": [
     {
       "id": "sade-kahve",
@@ -60,7 +60,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/black-eye.webp",
@@ -75,7 +75,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 175
+          "price": 180
         }
       ],
       "image": "/images/products/red-eye.webp",
@@ -90,7 +90,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 150
+          "price": 180
         }
       ],
       "image": "/images/products/americano.webp",
@@ -105,7 +105,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 140
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-crema.webp",
@@ -120,7 +120,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 120
+          "price": 180
         }
       ],
       "image": "/images/products/espresso-lungo.webp",
@@ -135,7 +135,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 100
+          "price": 180
         }
       ],
       "image": "/images/products/espresso.webp",
@@ -150,7 +150,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 180
         }
       ],
       "image": "/images/products/latte-macchiato.webp",
@@ -165,7 +165,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -180,7 +180,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 180
         }
       ],
       "image": "/images/products/flat-white.webp",
@@ -195,7 +195,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 180
         }
       ],
       "image": "/images/products/cappuccino.webp",
@@ -210,7 +210,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 170
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-americano.webp",
@@ -225,7 +225,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 170
+          "price": 200
         }
       ],
       "image": "/images/products/filtre-kahve.webp",
@@ -240,7 +240,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 150
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-espresso-macchiato.webp",
@@ -255,7 +255,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
@@ -270,7 +270,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-cappuccino.webp",
@@ -285,7 +285,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 180
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-latte-macchiato.webp",
@@ -432,7 +432,7 @@
       "variants": [
         {
           "label": "Tek fiyat",
-          "price": 150
+          "price": 180
         }
       ],
       "image": "/images/products/filtre-kahve.webp",
@@ -687,7 +687,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -702,7 +702,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -717,7 +717,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -732,7 +732,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -747,7 +747,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 200
+          "price": 180
         }
       ],
       "image": "/images/products/caffe-latte.webp",
@@ -762,7 +762,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 220
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
@@ -777,7 +777,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 220
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
@@ -792,7 +792,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 220
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
@@ -807,7 +807,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 220
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
@@ -822,7 +822,7 @@
       "variants": [
         {
           "label": "8 oz",
-          "price": 220
+          "price": 200
         }
       ],
       "image": "/images/products/buzlu-caffe-latte.webp",
