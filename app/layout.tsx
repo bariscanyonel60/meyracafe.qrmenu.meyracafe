@@ -10,16 +10,16 @@ const buildId = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMI
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Meyra Kafe | QR Menü",
-  description: "Kahve, tatlı ve keyifli molalar için butik kafe menüsü.",
+  title: "Meyra Cafe | QR Menü",
+  description: "Kahve, tatlı ve keyifli molalar için butik cafe menüsü.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Meyra Kafe | QR Menü",
-    description: "Kahve, tatlı ve keyifli molalar için butik kafe menüsü.",
+    title: "Meyra Cafe | QR Menü",
+    description: "Kahve, tatlı ve keyifli molalar için butik cafe menüsü.",
     url: SITE_URL,
-    siteName: "Meyra Kafe",
+    siteName: "Meyra Cafe",
     locale: "tr_TR",
     type: "website",
   },
