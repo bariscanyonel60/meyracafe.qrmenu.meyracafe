@@ -4,7 +4,7 @@ const NO_STORE = "private, no-cache, no-store, max-age=0, must-revalidate";
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    formats: ["image/webp"],
+    unoptimized: true,
   },
   experimental: {
     staleTimes: {
